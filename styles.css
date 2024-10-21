@@ -1,0 +1,26 @@
+.wrapper{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.sidebar{
+    grid-row: 1 / 7;
+    grid-column: 1;
+}
+
+.header{
+    grid-row: 1;
+    grid-column: 2 / 7;
+}
+
+.main-content{
+    grid-area: 2 / 2 / 7 / 7;
+}
+
+.structure{
+    border: 1px solid black;
+}
+

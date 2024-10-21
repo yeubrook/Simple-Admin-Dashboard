@@ -1,5 +1,5 @@
 :root{
-    --columns: 4;
+    --columns: 5;
     --rows: 6;
 }
 
@@ -116,7 +116,70 @@ input[type="text"] {
     font-family: "Helvetica", "Arial", sans-serif;
 }
 
+.button-container{
+
+}
+
+.buttons{
+    margin-right: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    background-color:#20a4e2;
+    border: 0px;
+}
+
+.main-content{
+    background: linear-gradient(to top, #efeff0 99%, #afafb0 100%);
+}
+
+.main-content-text-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.second-box-container{
+    display: flex;
+    height: 100%;
+}
+
+.project-grid{
+    display: grid;
+    height: 100%;
+    width: 70%;
+    grid-template-columns:  repeat(2, 1fr);
+    grid-template-rows:  repeat(3, 1fr);
+    gap: 10px;
+}
+
+.project{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.notification-flex{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement{
+    margin-left: 20px;
+    background-color: white;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 180px;
+}
+
 .structure{
-    border: 1px solid black;
+    
 }
 

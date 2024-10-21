@@ -8,53 +8,64 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="structure header">
-            <p>test</span>
-        </div>
         <div class="structure sidebar">
             <div class="sidebar-container" style="margin-bottom: 20px; gap: 5px; transform: translateX(-6px);">
                 <img class="sidebar-img" src="imgs/view-dashboard.svg" style="width: 35px; height: auto;"> 
-                <span style="font-size: 22px;">Dashboard</span>     
+                <a class='sidebar-item' style="font-size: 22px;">Dashboard</a>     
             </div>
             <div class="sidebar-container">
                 <img class="sidebar-img" src="imgs/home.svg"> 
-                <span class="sidebar-item">Home</span>
+                <a class="sidebar-item">Home</a>
             </div>
             <div class="sidebar-container">
                 <img class="sidebar-img" src="imgs/card-account-details-outline.svg"> 
-                <span class="sidebar-item">Profile</span>
+                <a class="sidebar-item">Profile</a>
             </div>
             <div class="sidebar-container">
                 <img class="sidebar-img" src="imgs/message.svg"> 
-                <span class="sidebar-item">Messages</span>
+                <a class="sidebar-item">Messages</a>
             </div>
             <div class="sidebar-container">
                 <img class="sidebar-img" src="imgs/clock-outline.svg">
-                <span class="sidebar-item">History</span>
+                <a class="sidebar-item">History</a>
             </div>
             <div class="sidebar-container">
                 <img class="sidebar-img" src="imgs/note-multiple.svg"> 
-                <span class="sidebar-item">Tasks</span> 
+                <a class="sidebar-item">Tasks</a> 
             </div>
             <div class="sidebar-container" style="margin-bottom: 30px;">
                 <img class="sidebar-img" src="imgs/account-group.svg">
-                <span class="sidebar-item">Communities</span> 
+                <a class="sidebar-item">Communities</a> 
             </div>
             <div class="sidebar-container">
                 <img class="sidebar-img" src="imgs/cog.svg"> 
-                <span class="sidebar-item">Settings</span>
+                <a class="sidebar-item">Settings</a>
             </div>
             <div class="sidebar-container">
                 <img class="sidebar-img" src="imgs/help-box.svg"> 
-                <span class="sidebar-item">Support</span>
+                <a class="sidebar-item">Support</a>
             </div>
             <div class="sidebar-container">
                 <img class="sidebar-img" src="imgs/shield-alert-outline.svg"> 
-                <span class="sidebar-item">Privacy</span>
+                <a class="sidebar-item">Privacy</a>
+            </div>
+        </div>
+        <div class="structure heading">
+            <div class="heading-search-container" style="padding-left: 30px;">
+                <img class="heading-img" src="imgs/magnify.svg"> 
+                <form action="/search" method="get"> <!-- Action URL for the search -->
+                    <input type="text" name="query" required>
+                </form>
+                <img style='margin-left: 10%; margin-right: 15px;' class="heading-img" src="imgs/bell-ring-outline.svg"> 
+                <img style='transform: translateY(18px); margin-right: 15px;' class="profile-img" src="imgs/28a4b58d1257943d1d0863e62f30d94d.jpg"> 
+                <p style='display:inline; font-family: "Helvetica", "Arial", sans-serif; font-weight: bold;' class="name">Brook Yeung</p>
+            </div>
+            <div class="heading-intro-container">
+
             </div>
         </div>
         <div class="structure main-content">
-            <p>test</span>
+
         </div>
     </div>
 </body>

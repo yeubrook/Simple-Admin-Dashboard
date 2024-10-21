@@ -40,15 +40,54 @@ body{
     filter: brightness(0) invert(1); /* turns svg white by inverting colors */
 }
 
-.sidebar-img
+.sidebar-item:hover{
+    text-decoration: underline;
+}
 
-.header{
-    grid-row: 1;
-    grid-column: 2 / calc(var(--columns) + 1);
+
+.main{
+    grid-row: 1 / 7;
+    grid-column: 2;
 }
 
 .main-content{
     grid-area: 2 / 2 / calc(var(--rows) + 1) / calc(var(--columns) + 1);
+}
+
+.heading{
+    grid-area: 1 / 2 / 2 / calc(var(--columns) + 1);
+}
+
+form{
+    display: inline;
+}
+
+input[type="text"] {
+    background-color: rgb(209, 207, 207);
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 50px; /* Rounded edges for oval shape */
+    padding: 10px 20px; /* Adjust padding for size */
+    width: 50%; /* Set a width to make it long */
+    font-size: 16px; /* Font size */
+    outline: none; /* Remove default outline */
+}
+
+.heading-img{
+    height: 30px;
+    width: auto;
+    transform: translateY(10px);
+}
+
+.heading-search-container{
+    
+}
+
+.profile-img{
+    height: 50px;
+    width: auto;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    
 }
 
 .structure{
